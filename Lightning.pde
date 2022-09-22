@@ -11,12 +11,13 @@ void setup()
 void draw()
 {
 background(0,0,50);
-
 stroke(255,255,b(),o());
+
+int branchOff = (int)(Math.random()*20)+130;
 
 while (ny<300){
 lightning(nx,ny); 
-if ((ny>120)&&(ny<150)){
+if ((ny>120)&&(ny<branchOff)){
   branchOff();
 }
 }
@@ -94,4 +95,3 @@ redraw();
 nx = 150;
 ny = 0;
 }
-
