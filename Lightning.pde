@@ -25,9 +25,9 @@ drawClouds(50,20);
 drawClouds(25,40);
 }
 
-void drawClouds(int fill,int y){
+void drawClouds(int fillnum,int y){
 noStroke();
-  fill(fill);
+  fill(fillnum);
   int wide;
   //int high;
   for (int x = 0; x<330;x+=20){
