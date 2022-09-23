@@ -13,11 +13,11 @@ void draw()
 background(0,0,50);
 stroke(255,255,b(),o());
 
-int branchOffNum = (int)(Math.random()*20)+130;
+//int branchOffNum = (int)(Math.random()*20)+130;
 
 while (ny<300){
 lightning(nx,ny); 
-if ((ny>120)&&(ny<branchOffNum)){
+if ((ny>120)&&(ny<140)){
   branchOff();
 }
 }
